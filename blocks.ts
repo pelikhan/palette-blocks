@@ -6,7 +6,7 @@ namespace palette {
     /**
      * Sets a color in the palette
      */
-    //% blockId=palettesetcolorhue block="set palette color $index to hue $col=colorWheelPicker"
+    //% blockId=palettesetcolorhue block="set palette color $index=colorindexpicker to hue $col=colorWheelPicker"
     //% index.min=0 index.max=1 index.defl=1
     export function setColorHue(index: number, col: number) {
         const colors = palette.getCurrentColors();

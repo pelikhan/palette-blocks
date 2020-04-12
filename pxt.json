@@ -6,7 +6,6 @@
         "palette": "*"
     },
     "files": [
-        "main.ts",
         "README.md",
         "blocks.ts"
     ],
