@@ -14,4 +14,9 @@ pause(2000)
 for(let i = 0; i < 16; ++i)
     palette.setColorHue(i, i << 4);
 
+pause(2000)
+// hue
+for(let x = 0; x < 8; ++x)
+    for(let y = 0; y < 8; ++y)
+        palette.setColor(x + y, color.rgb(255 - x * 32, 0, y * 32));
 
