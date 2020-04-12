@@ -2,7 +2,8 @@
 ---
 
 ---
-    > Open this page at [https://pelikhan.github.io/palette-blocks/](https://pelikhan.github.io/palette-blocks/)
+
+> Open this page at [https://pelikhan.github.io/palette-blocks/](https://pelikhan.github.io/palette-blocks/)
 
 An extension that provides easy blocs to modify the palette in MakeCode Aracde.
 
