@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v0.16.60/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.2","target":"arcade","targetVersion":"0.16.60","repo":"pelikhan/palette-blocks"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v0.16.60/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.3","target":"arcade","targetVersion":"0.16.60","repo":"pelikhan/palette-blocks"}
 // total=1111204 new=7.11% cached=87.15% other=5.74%
 (function (ectx) {
 'use strict';
@@ -380,7 +380,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P261558(s) {
+function _main___P261958(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -898,13 +898,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P261558.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"test.ts","functionName":"<main>","argumentNames":[]}
-_main___P261558.continuations = [  ]
+_main___P261958.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"test.ts","functionName":"<main>","argumentNames":[]}
+_main___P261958.continuations = [  ]
 
-function _main___P261558_mk(s) {
+function _main___P261958_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P261558, depth: s.depth + 1,
+        parent: s, fn: _main___P261958, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -38780,5 +38780,5 @@ const tiles_Location__C246759_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["sprite___249462"])
 
-return _main___P261558
+return _main___P261958
 })
