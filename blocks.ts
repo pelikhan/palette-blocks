@@ -1,7 +1,8 @@
 /**
  * Modify the color palette on the fly
  */
-//% icon="\uf042" color="#b38c22"
+//% icon="\uf042" color="#b32246"
+//% weight=80
 namespace palette {
     /**
      * Sets a color in the palette
