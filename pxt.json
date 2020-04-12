@@ -1,0 +1,20 @@
+{
+    "name": "palette-blocks",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "palette": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "blocks.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
