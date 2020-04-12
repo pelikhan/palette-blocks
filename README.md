@@ -15,6 +15,14 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/pelikhan/palette-blocks** and import
 
+### setColorHue
+
+Changes a color from the palette to a given hue.
+
+```blocks
+palette.setColorHue(4, 96);
+```
+
 ## Edit this extension ![Build status badge](https://github.com/pelikhan/palette-blocks/workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
