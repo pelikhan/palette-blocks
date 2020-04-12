@@ -23,6 +23,14 @@ Changes a color from the palette to a given hue.
 palette.setColorHue(4, 96);
 ```
 
+### setColor
+
+Changes a color from the palette to a RGB color
+
+```blocks
+palette.setColor(4, color.rgb(32, 64, 128));
+```
+
 ## Edit this extension ![Build status badge](https://github.com/pelikhan/palette-blocks/workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
@@ -30,13 +38,6 @@ To edit this repository in MakeCode.
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/pelikhan/palette-blocks** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/pelikhan/palette-blocks/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 
